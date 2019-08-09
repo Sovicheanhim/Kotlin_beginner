@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="" app:showAsAction="always" android:icon="@drawable/ic_more_vert_black_24dp">
+        <menu>
+            <item android:id="@+id/option1" android:title="Pizza" android:icon="@drawable/ic_airplanemode_active_black_24dp" app:showAsAction="never"/>
+            <item android:id="@+id/option2" android:title="Salad" android:icon="@drawable/ic_apps_black_24dp" app:showAsAction="never"/>
+            <item android:id="@+id/option3" android:title="Hamburger" android:icon="@drawable/ic_directions_boat_black_24dp" app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
